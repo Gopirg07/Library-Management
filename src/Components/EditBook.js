@@ -29,7 +29,7 @@ export default function EditBook({ books, setBooks }) {
   const { values, handleChange, handleSubmit, handleBlur, errors, touched } =
     useFormik({
       initialValues: {
-        id:selectedId. id,
+        id:selectedId.id,
         name:selectedId.name,
         author:selectedId.author,
         ISBN:selectedId.ISBN,
