@@ -25,7 +25,7 @@ export default function AddBook({ books, setBooks }) {
   const { values, handleChange, handleSubmit, handleBlur, errors, touched } =
     useFormik({
       initialValues: {
-        id: 0,
+        id: "",
         name: "",
         author: "",
         ISBN: "",
